@@ -1,0 +1,35 @@
+body {
+  font-family:Helvetica,Arial,sans-serif;
+  
+}
+
+#title,
+#description {
+  text-align:center;
+  margin:0;
+  
+}
+#title {
+  padding-top:10px;
+  margin-top:20px;
+}
+#description {
+  padding-bottom:5px;
+  margin-bottom:20px;
+}
+
+.container {
+  width:900px;
+  margin:0 auto;
+}
+
+
+#tooltip {
+  position:absolute;
+  opacity:0;
+  pointer-events:none;
+  color:white;
+  background:#777;
+  padding:10px;
+  border-radius:4px;
+}
